@@ -1,0 +1,29 @@
+{
+  "name": "@danginkgo/util",
+  "version": "1.0.0",
+  "description": "utilities",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --forbid-only --fail-zero --reporter mochawesome test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danrusu/util.git"
+  },
+  "keywords": [
+    "JS",
+    "utilities"
+  ],
+  "author": "Dan Rusu <danginkgo@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danrusu/util/issues"
+  },
+  "homepage": "https://github.com/danrusu/util#readme",
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.7.3",
+    "mochawesome": "^7.1.3",
+    "prettier": "^3.3.3"
+  }
+}
